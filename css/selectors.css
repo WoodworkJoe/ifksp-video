@@ -15,10 +15,23 @@ body {
     margin-bottom: 7px;
 }
 
-.login-div input[type="email"] {
-    border: solid 1px blue;
+.login-div button:hover {
+    box-shadow: 2px 2px 3px #a0a0a0;
 }
 
-.login-div input[type="password"] {
-    border: solid 1px red;
+.login-div input:focus {
+    box-shadow: 2px 2px 3px #a0a0a0;
+    border: none;
+}
+    
+ul li:last-child {
+    text-decoration: underline;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:nth-child(2) {
+    color: blue;
 }
